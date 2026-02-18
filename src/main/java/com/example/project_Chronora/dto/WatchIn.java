@@ -13,7 +13,7 @@ public class WatchIn implements Serializable {
 
     @NotBlank
     @Size(min = 2, max = 50)
-    @Column(nullable = false
+    @Column(nullable = fals
     private String brand;
 
     @NotBlank
